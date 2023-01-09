@@ -1,0 +1,89 @@
+<keymap version="1" name="Mac OS X Heinz" parent="Mac OS X">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateFindToolWindow" />
+  <action id="ActivateGIdeaBrowserToolWindow">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="BookmarksView.Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+  </action>
+  <action id="ContextHelp" />
+  <action id="CopyAsPlainText">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
+  <action id="CopyPaths" />
+  <action id="DecompileKotlinToJava">
+    <keyboard-shortcut first-keystroke="shift ctrl meta k" />
+  </action>
+  <action id="DomElementsTreeView.DeleteElement">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+  <action id="EditorToggleColumnMode">
+    <keyboard-shortcut first-keystroke="shift meta multiply" />
+    <keyboard-shortcut first-keystroke="ctrl meta c" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta c" />
+  </action>
+  <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="shift meta b" />
+  </action>
+  <action id="IntroduceParameter" />
+  <action id="RemoteHostView.CopyPaths" />
+  <action id="RunGc">
+    <keyboard-shortcut first-keystroke="shift meta alt g" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="meta alt p" />
+  </action>
+  <action id="ToggleZenMode">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt z" />
+  </action>
+  <action id="UsageView.Exclude">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
+  </action>
+</keymap>

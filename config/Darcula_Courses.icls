@@ -1,0 +1,24 @@
+<scheme name="Darcula Courses" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="created">2021-12-13T16:42:42</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2021.3.0.0</property>
+    <property name="modified">2021-12-13T16:42:58</property>
+    <property name="originalScheme">Darcula Courses</property>
+  </metaInfo>
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="18" />
+  <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <colors>
+    <option name="PROMOTION_PANE" value="376c89" />
+  </colors>
+  <attributes>
+    <option name="WRONG_REFERENCES_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ff1e1e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

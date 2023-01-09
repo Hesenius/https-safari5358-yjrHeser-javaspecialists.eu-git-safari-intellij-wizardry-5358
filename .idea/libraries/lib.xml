@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/itext-0.92.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hsqldb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jasperreports.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jdom.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-digester.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jasperreports-applet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-beanutils.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta-poi-1.5.1-final-20020615.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

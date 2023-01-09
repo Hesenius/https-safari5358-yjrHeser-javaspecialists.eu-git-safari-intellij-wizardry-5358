@@ -1,0 +1,44 @@
+snt
+System.nanoTime()
+
+long $TIME$ = System.nanoTime();
+try {
+    $SELECTION$
+} finally {
+    $TIME$ = System.nanoTime() - $TIME$;
+    System.out.printf("$TIME$ = %dms%n", ($TIME$/1_000_000));
+}
+
+
+sctm
+System.currentTimeMillis()
+
+long $TIME$ = System.currentTimeMillis();
+try {
+    $SELECTION$
+} finally {
+    $TIME$ = System.currentTimeMillis() - $TIME$;
+    System.out.println("$TIME$ = " + $TIME$ + "ms");
+}
+
+
+RL
+Surround with ReadWriteLock.readLock
+
+$LOCK$.readLock().lock();
+try { 
+  $SELECTION$
+} finally {
+  $LOCK$.readLock().unlock();
+}
+
+
+WL
+Surround with ReadWriteLock.writeLock
+
+$LOCK$.writeLock().lock();
+try { 
+  $SELECTION$
+} finally {
+  $LOCK$.writeLock().unlock();
+}
