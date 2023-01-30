@@ -27,7 +27,7 @@ public class ConnectionFactory {
         try {
             final ArrayList metaTableNames = new ArrayList();
             final DatabaseMetaData metadata = ConnectionFactory.getConnection()
-                .getMetaData();
+                    .getMetaData();
 
             final String[] types = {"TABLE"};
             final ResultSet resultSet = metadata.getTables(null, null, "%", types);
